@@ -1,0 +1,12 @@
+
+fun main() {
+
+    println("===== Numbers From 1 To 10 =====")
+
+    for (number in 1..10) {
+        println("Number: $number")
+    }
+
+    println("================================")
+    println("Numbers displayed successfully!")
+}
