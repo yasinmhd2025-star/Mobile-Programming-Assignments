@@ -1,0 +1,21 @@
+
+void main() {
+
+  // Create a map of students and their scores
+  Map<String, double> students = {
+    "Ali": 18.5,
+    "Sara": 19.0,
+    "Reza": 16.5
+  };
+
+  print("===== Student Scores =====");
+
+  // Display student names and scores
+  students.forEach((name, score) {
+    print("Student Name: $name");
+    print("Student Score: $score");
+    print("-------------------------");
+  });
+
+  print("Total Students: ${students.length}");
+}
