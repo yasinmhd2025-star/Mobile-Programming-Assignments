@@ -1,0 +1,24 @@
+
+void main() {
+
+  // Student Information
+  String studentName = "Ali";
+  double studentScore = 17.5;
+
+  // Display Student Information
+  print("===== Student Score Report =====");
+
+  print("Student Name: $studentName");
+  print("Student Score: $studentScore");
+
+  // Check Student Score
+  if (studentScore >= 10) {
+    print("Result: Passed!");
+    print("Congratulations!");
+  } else {
+    print("Result: Failed!");
+    print("You need to try again.");
+  }
+
+  print("================================");
+}
