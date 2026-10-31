@@ -1,0 +1,14 @@
+
+void greet(String name) {
+  print("Hello, $name!");
+  print("Welcome to our program.");
+}
+
+void main() {
+
+  print("===== Welcome Program =====");
+
+  greet("Ali");
+
+  print("============================");
+}
