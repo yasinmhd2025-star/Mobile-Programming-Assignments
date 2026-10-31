@@ -1,0 +1,22 @@
+
+void main() {
+
+  // String variable (Non-nullable)
+  String studentName = "Ali";
+
+  // String? variable (Nullable)
+  String? studentCity;
+
+  print("===== String and String? =====");
+
+  print("Student Name: $studentName");
+
+  print("Student City: $studentCity");
+
+  // Assign a value to nullable variable
+  studentCity = "Tehran";
+
+  print("Updated Student City: $studentCity");
+
+  print("==============================");
+}
