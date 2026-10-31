@@ -1,0 +1,18 @@
+
+void main() {
+
+  // Student Information
+  String studentName = "Ali";
+  int studentAge = 20;
+  String studentMajor = "Computer Engineering";
+
+  // Display Student Information
+  print("===== Student Information =====");
+
+  print("Student Name: $studentName");
+  print("Student Age: $studentAge");
+  print("Student Major: $studentMajor");
+
+  print("===============================");
+  print("Information displayed successfully!");
+}
