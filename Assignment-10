@@ -1,0 +1,20 @@
+
+int multiply(int number1, int number2) {
+  return number1 * number2;
+}
+
+void main() {
+
+  print("===== Multiplication Program =====");
+
+  int firstNumber = 5;
+  int secondNumber = 4;
+
+  int result = multiply(firstNumber, secondNumber);
+
+  print("First Number: $firstNumber");
+  print("Second Number: $secondNumber");
+  print("Multiplication Result: $result");
+
+  print("==================================");
+}
