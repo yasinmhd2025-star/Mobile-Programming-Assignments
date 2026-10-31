@@ -1,0 +1,31 @@
+
+class Book {
+
+  // Book properties
+  String title;
+  String author;
+
+  // Constructor
+  Book(this.title, this.author);
+
+  // Display book information
+  void displayInfo() {
+    print("Book Title: $title");
+    print("Author Name: $author");
+  }
+}
+
+void main() {
+
+  print("===== Book Information =====");
+
+  // Create an object
+  Book myBook = Book(
+    "Learning Dart",
+    "John Smith"
+  );
+
+  myBook.displayInfo();
+
+  print("============================");
+}
