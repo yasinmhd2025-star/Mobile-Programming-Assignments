@@ -1,0 +1,18 @@
+
+fun main() {
+
+    // Student Information
+    val studentName = "Ali"
+    val studentAge = 20
+    val studentMajor = "Computer Engineering"
+
+    // Display Information
+    println("===== Student Information =====")
+
+    println("Student Name: $studentName")
+    println("Student Age: $studentAge")
+    println("Student Major: $studentMajor")
+
+    println("===============================")
+    println("Information displayed successfully!")
+}
