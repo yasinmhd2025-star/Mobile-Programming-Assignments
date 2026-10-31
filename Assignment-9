@@ -1,0 +1,13 @@
+
+void main() {
+
+  print("===== Numbers From 1 To 20 =====");
+
+  // Display numbers using for loop
+  for (int number = 1; number <= 20; number++) {
+    print("Number: $number");
+  }
+
+  print("================================");
+  print("All numbers displayed successfully!");
+}
