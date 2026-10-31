@@ -1,0 +1,21 @@
+
+fun main() {
+
+    val studentName = "Ali"
+    val score = 17
+
+    println("===== Student Score Report =====")
+
+    println("Student Name: $studentName")
+    println("Student Score: $score")
+
+    if (score >= 10) {
+        println("Result: Passed!")
+        println("Congratulations!")
+    } else {
+        println("Result: Failed!")
+        println("You need to try again.")
+    }
+
+    println("================================")
+}
